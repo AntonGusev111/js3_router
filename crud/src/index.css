@@ -1,0 +1,133 @@
+:root {
+  background-color: #c0c0c0c4;
+}
+
+a {
+  font-weight: 500;
+  color: #fcfcfc;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #80f253;
+}
+
+.CreateBar{
+  border: 1px solid black;
+  height: 35px;
+  background-color: rgb(253, 253, 253);
+  text-align: right;
+  border-radius:5px;
+}
+
+
+.CreateButton{
+  background-color: #535bf2;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  line-height:24px;
+  border-radius: 4px;
+  margin: 0 0 0 auto;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.upBar{
+  border: 1px solid black;
+  max-width: 390px;
+  padding-left: 15px;
+}
+
+.NPB {
+  color: black;
+  margin-right: 20px;
+}
+
+textarea{
+  resize: both;
+	width: 400px;
+	height: 100px;
+}
+
+.addbutton{
+  border-radius: 4px;
+  width: 100px;
+  height: 25px;
+  line-height:24px;
+  text-align: center;
+  background-color: #535bf2;
+}
+
+.card{
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-top: 10px;
+  max-width: 350px;
+  margin-left: 40%;
+  background-color: aliceblue;
+  padding: 8px;
+}
+
+.cardHeader{
+  display: flex;
+}
+
+img{
+  width: 35px;
+}
+
+
+.headerInfo{
+  margin-left: 5px;
+}
+
+.cardContent{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.buttons{
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.postButton{
+  margin-left: 90px;
+}
+
+.postButton:hover{
+  cursor: pointer;
+}
+
+.footerCard{
+  display: flex;
+}
+
+.inputarea{
+  border: 1px solid black;
+  margin-left: 15px;
+  display: flex;
+  height: 25px;
+  margin-top: 5px;
+  padding-right: 10px;
+}
+
+input {
+  outline: none;
+}
+
+.sendButton{
+  cursor: pointer;
+}
+
+.cardLink{
+  color: black;
+}
+
+.cardLink:hover{
+  color:black
+}
