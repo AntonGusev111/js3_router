@@ -6,10 +6,7 @@ import SinglePost from './SinglePost';
 
 export default function MainPage() {
 
-  const getId = (id)=>{
-    SinglePost('wadawd',id)
-  }
-
+  
   return (
     <>
       <div className='CreateBar'>
@@ -17,7 +14,7 @@ export default function MainPage() {
           <Link className='CreateButton' to="/posts/new">Создать пост</Link>
         </div>
       </div>
-      <Posts onChange = {getId}/>
+      <Posts />
     </>
     
   )

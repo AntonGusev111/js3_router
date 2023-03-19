@@ -131,3 +131,67 @@ input {
 .cardLink:hover{
   color:black
 }
+
+.changeBTN{
+  background-color: #80f253;
+  border-radius: 7px;
+  padding: 3px;
+  margin-left: 55%;
+}
+
+.changeBTN:hover{
+  cursor: pointer;
+}
+
+.dellBTN{
+  background-color: #dd131d;
+  border-radius: 7px;
+  padding: 3px;
+  margin-left: 15px
+}
+
+.dellBTN:hover{
+  cursor: pointer;
+}
+
+.ChangeInfo{
+  display: flex;
+}
+
+.redact{
+  margin-left:30px;
+}
+
+.buttons{
+  display: flex;
+}
+
+.rightblock{
+  margin-left: 75px;
+}
+
+.savebtn{
+  background-color: #80f253;
+  width: 80px;
+  padding: 5px;
+  border-radius:7px;
+  margin-left: 70%;
+  margin-top: 7px;
+}
+
+.savebtn:hover{
+  cursor: pointer;
+}
+
+
+.changeHeader{
+  display: flex;
+}
+
+.cancelChange{
+  margin-left: 40%;
+}
+
+.cancelChange:hover{
+  cursor: pointer;
+}
